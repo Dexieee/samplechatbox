@@ -1,0 +1,45 @@
+#chat {
+    background-color: #fff9d6;
+    height: 200px;
+    width: 1000px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    margin: auto;
+}
+#title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: #fff9d6;
+}
+.logout {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 70%;
+    left: 51%;
+    transform: translate(-70%, -50%);
+    opacity: 0.6;
+    transition: 0.3s;
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+  }
+  .logout:hover {opacity: 1}
+  
+#entermsg{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+}
+body{
+    background-color: #335c67;
+}
